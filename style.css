@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background: #fff;
+}
+.app {
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #333;
+}
+.contactItem .contactEmail {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.contactForm {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 4px solid green;
+}
+input {
+    padding: 10px;
+    border: 2px solid green;
+}
+img {
+	max-width: 30%;
+	min-width: 30%;
+	height: auto;
+    margin: 50px 0;
+}
+button {
+    background: green;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 40px;
+    border: none;
+}
+button:hover {
+    background: #fff;
+    color: green;
+    cursor: pointer;
+}
+.contactItem {
+    width: 80%;
+    padding-bottom: 50px;
+    border-bottom: 4px solid green;
+}
+.contactList {
+    padding: 20px 0;
+}
